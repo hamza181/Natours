@@ -15,6 +15,7 @@ app.use((req, res, next) => {
   next();
 });
 
+
 // 2) Routes
 
 app.use('/api/v1/tours', tourRouter);
